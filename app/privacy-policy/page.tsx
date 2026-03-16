@@ -14,39 +14,40 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <div className="py-12 sm:py-16 lg:py-24">
+    <div className="min-h-screen py-16 sm:py-24 lg:py-32">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">Privacy Policy</h1>
-        <p className="mt-2 text-sm text-gray-500">Last updated: March 1, 2026</p>
+        <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 sm:p-12">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white">Privacy Policy</h1>
+          <p className="mt-2 text-sm text-slate-400">Last updated: March 1, 2026</p>
 
-        <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+          <div className="mt-8 space-y-6 text-base sm:text-lg text-slate-300 leading-relaxed">
           <p>
             Audio Recording School (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) operates the website
             audiorecordingschool.net (the &quot;Site&quot;). This Privacy Policy explains how we collect, use,
             disclose, and safeguard your information when you visit our Site.
           </p>
 
-          <h2 className="text-xl font-semibold text-gray-900 pt-4">Information We Collect</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold text-white pt-4">Information We Collect</h2>
           <p>We may collect information about you in a variety of ways:</p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              <strong>Personal Data:</strong> When you voluntarily provide it — such as when you
+              <strong className="text-white">Personal Data:</strong> When you voluntarily provide it — such as when you
               subscribe to our newsletter, fill out a contact form, or leave a comment — we may
               collect your name, email address, and any other information you choose to provide.
             </li>
             <li>
-              <strong>Usage Data:</strong> We automatically collect certain information when you
+              <strong className="text-white">Usage Data:</strong> We automatically collect certain information when you
               visit the Site, including your IP address, browser type, operating system, referring
               URLs, pages viewed, and the dates/times of your visits.
             </li>
             <li>
-              <strong>Cookies and Tracking:</strong> We use cookies and similar tracking technologies
+              <strong className="text-white">Cookies and Tracking:</strong> We use cookies and similar tracking technologies
               to enhance your experience and analyze site usage. You can control cookies through
               your browser settings.
             </li>
           </ul>
 
-          <h2 className="text-xl font-semibold text-gray-900 pt-4">How We Use Your Information</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold text-white pt-4">How We Use Your Information</h2>
           <p>We use the information we collect to:</p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Provide, operate, and maintain our Site</li>
@@ -94,26 +95,27 @@ export default function PrivacyPolicyPage() {
             .
           </p>
 
-          <h2 className="text-xl font-semibold text-gray-900 pt-4">Children&apos;s Privacy</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold text-white pt-4">Children&apos;s Privacy</h2>
           <p>
             Our Site is not intended for children under 13 years of age. We do not knowingly
             collect personal information from children under 13.
           </p>
 
-          <h2 className="text-xl font-semibold text-gray-900 pt-4">Changes to This Policy</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold text-white pt-4">Changes to This Policy</h2>
           <p>
             We may update this Privacy Policy from time to time. We will notify you of any changes
             by posting the new Privacy Policy on this page and updating the &quot;Last updated&quot; date.
           </p>
 
-          <h2 className="text-xl font-semibold text-gray-900 pt-4">Contact Us</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold text-white pt-4">Contact Us</h2>
           <p>
             If you have questions about this Privacy Policy, please contact us at{' '}
-            <a href="mailto:privacy@audiorecordingschool.net" className="text-blue-600 hover:underline">
+            <a href="mailto:privacy@audiorecordingschool.net" className="text-cyan-400 hover:text-cyan-300 transition-colors">
               privacy@audiorecordingschool.net
             </a>
             .
           </p>
+        </div>
         </div>
       </div>
     </div>

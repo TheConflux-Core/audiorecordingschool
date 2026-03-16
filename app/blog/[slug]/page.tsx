@@ -100,67 +100,69 @@ export default async function ArticlePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <article className="py-12 sm:py-16 lg:py-24">
+      <article className="min-h-screen py-16 sm:py-24 lg:py-32">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Header */}
-          <header className="mb-8 sm:mb-12">
-            <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500 mb-4">
-              <time dateTime={article.date}>{formatDate(article.date)}</time>
-              <span>&middot;</span>
-              <span>{article.readTime}</span>
-            </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900">
-              {article.title}
-            </h1>
-            <p className="mt-4 text-lg text-gray-600 leading-relaxed">{article.excerpt}</p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {article.topics.map(topic => (
-                <Link
-                  key={topic}
-                  href={`/topics/${topic}`}
-                  className="inline-block rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 hover:bg-blue-100"
-                >
-                  {topic.replace(/-/g, ' ')}
-                </Link>
-              ))}
-            </div>
-          </header>
-
-          {/* Content */}
-          <Prose>{renderContent(article.content)}</Prose>
-
-          {/* Affiliate placeholder */}
-          <aside className="my-8 rounded-lg border border-gray-200 bg-gray-50 p-6 text-sm text-gray-500">
-            <p className="font-medium text-gray-700 mb-1">Affiliate Disclosure</p>
-            <p>
-              Some links on this page may be affiliate links. If you make a purchase through them,
-              we may earn a small commission at no extra cost to you. We only recommend products
-              we genuinely believe in.{' '}
-              <Link href="/affiliate-disclosure" className="text-blue-600 hover:underline">
-                Learn more
-              </Link>
-              .
-            </p>
-          </aside>
-
-          {/* Related articles */}
-          {relatedArticles.length > 0 && (
-            <section className="mt-12 pt-8 border-t border-gray-200">
-              <h2 className="text-xl font-bold text-gray-900 mb-6">Related Articles</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {relatedArticles.map(ra => (
+          <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 sm:p-12">
+            {/* Header */}
+            <header className="mb-8 sm:mb-12">
+              <div className="flex flex-wrap items-center gap-3 text-sm text-slate-400 mb-4">
+                <time dateTime={article.date}>{formatDate(article.date)}</time>
+                <span>&middot;</span>
+                <span>{article.readTime}</span>
+              </div>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white">
+                {article.title}
+              </h1>
+              <p className="mt-4 text-lg sm:text-xl text-slate-300 leading-relaxed">{article.excerpt}</p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {article.topics.map(topic => (
                   <Link
-                    key={ra.slug}
-                    href={`/blog/${ra.slug}`}
-                    className="rounded-lg border border-gray-200 bg-white p-4 hover:shadow-md transition-shadow"
+                    key={topic}
+                    href={`/topics/${topic}`}
+                    className="inline-block rounded-full bg-gradient-to-r from-cyan-400/10 to-violet-500/10 border border-cyan-400/20 px-3 py-1 text-xs font-medium text-cyan-300 hover:border-cyan-400/40 transition-colors"
                   >
-                    <h3 className="text-sm font-semibold text-gray-900">{ra.title}</h3>
-                    <p className="mt-1 text-xs text-gray-500">{ra.readTime}</p>
+                    {topic.replace(/-/g, ' ')}
                   </Link>
                 ))}
               </div>
-            </section>
-          )}
+            </header>
+
+            {/* Content */}
+            <Prose>{renderContent(article.content)}</Prose>
+
+            {/* Affiliate placeholder */}
+            <aside className="my-8 rounded-lg border border-white/10 bg-white/5 p-6 text-sm text-slate-300">
+              <p className="font-medium text-white mb-1">Affiliate Disclosure</p>
+              <p>
+                Some links on this page may be affiliate links. If you make a purchase through them,
+                we may earn a small commission at no extra cost to you. We only recommend products
+                we genuinely believe in.{' '}
+                <Link href="/affiliate-disclosure" className="text-cyan-400 hover:text-cyan-300 transition-colors">
+                  Learn more
+                </Link>
+                .
+              </p>
+            </aside>
+
+            {/* Related articles */}
+            {relatedArticles.length > 0 && (
+              <section className="mt-12 pt-8 border-t border-white/10">
+                <h2 className="text-xl sm:text-2xl font-bold text-white mb-6">Related Articles</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                  {relatedArticles.map(ra => (
+                    <Link
+                      key={ra.slug}
+                      href={`/blog/${ra.slug}`}
+                      className="rounded-lg border border-white/10 bg-white/5 p-4 hover:border-cyan-400/30 hover:shadow-[0_0_20px_rgba(34,211,238,0.1)] transition-all"
+                    >
+                      <h3 className="text-sm font-semibold text-white">{ra.title}</h3>
+                      <p className="mt-1 text-xs text-slate-400">{ra.readTime}</p>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )}
+          </div>
         </div>
       </article>
     </>
