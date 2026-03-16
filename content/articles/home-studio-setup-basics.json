@@ -1,0 +1,136 @@
+{
+  "slug": "home-studio-setup-basics",
+  "title": "Home Studio Setup Basics: What You Actually Need to Record Better Audio",
+  "excerpt": "Setting up a home studio doesn't require a huge budget or a dedicated room. Here's a practical guide to building a recording space that actually works.",
+  "date": "2026-03-08",
+  "readTime": "11 min read",
+  "topics": ["home-studio-setup", "gear-and-equipment"],
+  "relatedArticles": ["how-to-start-recording-audio-at-home", "why-your-recordings-sound-bad-at-home"],
+  "content": [
+    {
+      "type": "intro",
+      "text": "You've been recording for a while now with basic gear, and you're ready to level up. Setting up a dedicated home studio doesn't mean converting your garage into Abbey Road — it means making intentional choices about your space, your gear, and your workflow that help you record better audio consistently. This guide covers what actually matters and what you can skip."
+    },
+    {
+      "type": "h2",
+      "text": "Choosing the Right Room"
+    },
+    {
+      "type": "p",
+      "text": "The single biggest upgrade you can make to your recordings isn't a new microphone — it's choosing the right room. Room acoustics affect every recording you make, and no amount of expensive gear can fully compensate for a bad space."
+    },
+    {
+      "type": "p",
+      "text": "Ideal rooms for home recording share a few characteristics. Medium-sized rooms (roughly 10x12 feet to 15x20 feet) tend to have better natural acoustics than very small or very large spaces. Rooms with irregular shapes are better than perfect squares, which create standing waves that cause certain frequencies to ring or cancel out. Rooms with lots of soft materials — carpets, curtains, upholstered furniture — naturally absorb reflections and reduce echo."
+    },
+    {
+      "type": "p",
+      "text": "If you have multiple rooms to choose from, pick the one with the most soft furnishings and the fewest hard, parallel walls. Avoid rooms with hardwood or tile floors unless you plan to add rugs. Spare bedrooms often work well, especially walk-in closets for voice recording."
+    },
+    {
+      "type": "h2",
+      "text": "Basic Acoustic Treatment on a Budget"
+    },
+    {
+      "type": "p",
+      "text": "Acoustic treatment isn't the same as soundproofing. Soundproofing blocks sound from entering or leaving a room — that requires construction work. Acoustic treatment controls reflections inside the room to make your recordings sound cleaner and more professional."
+    },
+    {
+      "type": "p",
+      "text": "You can get surprisingly good results with a few hundred dollars or even DIY solutions:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Moving blankets — thick, heavy blankets hung on walls or placed behind you absorb mid and high frequencies effectively. Professional voice actors use these regularly.",
+        "DIY acoustic panels — rigid fiberglass insulation (like Owens Corning 703) wrapped in fabric makes excellent absorption panels. Mount them at the first reflection points on your walls.",
+        "Bass traps — foam or fiberglass placed in corners where walls meet helps control low-frequency buildup, which makes recordings sound muddy.",
+        "A reflection filter — curved panels that mount behind your microphone (like the SE Electronics Reflexion Filter) create a small dead zone around the mic."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Focus treatment on the wall behind your microphone, the wall behind where you sit or stand, and the corners of the room. These are the areas where reflections have the biggest impact on your recording quality."
+    },
+    {
+      "type": "h2",
+      "text": "Essential Gear for a Home Studio"
+    },
+    {
+      "type": "p",
+      "text": "Once you've handled your room, here's the gear that makes up a solid home studio setup. This isn't about the most expensive options — it's about the right tools for the job."
+    },
+    {
+      "type": "h3",
+      "text": "Audio Interface"
+    },
+    {
+      "type": "p",
+      "text": "If you started with a USB microphone, upgrading to an audio interface and XLR microphone is the single biggest quality jump you can make. An interface converts your microphone's analog signal to digital and gives you proper preamps, gain controls, and monitoring capabilities. The Focusrite Scarlett Solo ($120) is the most popular entry-level option. The Universal Audio Volt 1 ($140) offers vintage-style preamp coloring. Both include headphone outputs and work reliably with every major DAW."
+    },
+    {
+      "type": "h3",
+      "text": "Microphone"
+    },
+    {
+      "type": "p",
+      "text": "For most home studio work, a large-diaphragm condenser microphone is the most versatile choice. The Audio-Technica AT2020 ($100) is an excellent budget option. The Rode NT1 ($270) is a step up with extremely low self-noise. For dynamic microphone options that reject more room noise, the Shure SM58 ($100) and the Rode PodMic ($100) are both excellent, especially for untreated rooms."
+    },
+    {
+      "type": "h3",
+      "text": "Headphones"
+    },
+    {
+      "type": "p",
+      "text": "Closed-back headphones are essential for tracking (recording) because they prevent sound from leaking into your microphone. The Audio-Technica ATH-M50x ($150) is an industry standard. The Sony MDR-7506 ($100) has been a studio workhorse for decades. For mixing, open-back headphones like the Beyerdynamic DT 900 Pro X ($300) give you a more natural, spacious sound."
+    },
+    {
+      "type": "h3",
+      "text": "Accessories"
+    },
+    {
+      "type": "p",
+      "text": "Don't overlook the small stuff. A sturdy microphone stand (desk stand or boom arm) prevents handling noise. A pop filter blocks plosive sounds (the harsh P and B sounds that cause distortion). An XLR cable (get a reliable one like Mogami or Hosa) connects your mic to your interface. Budget $50 to $80 total for these essentials."
+    },
+    {
+      "type": "h2",
+      "text": "Setting Up Your Workspace"
+    },
+    {
+      "type": "p",
+      "text": "Your recording setup should be ergonomic and efficient. Position your desk so you face into the room (not into a corner). Place your microphone in front of you with the pop filter at the right distance. Keep your interface within arm's reach so you can adjust gain without leaving your seat."
+    },
+    {
+      "type": "p",
+      "text": "If you record vocals or voiceovers, consider setting up a dedicated recording position separate from your desk. A simple vocal booth can be a corner of the room with heavy curtains or blankets on three sides, creating a dead space for the microphone to capture a clean, dry signal."
+    },
+    {
+      "type": "p",
+      "text": "Cable management matters more than you'd think. Tangled cables create noise, get caught on things, and make your setup a pain to use. Use velcro ties or cable channels to keep everything organized. Label your cables if you have more than a few."
+    },
+    {
+      "type": "h2",
+      "text": "Software and Workflow"
+    },
+    {
+      "type": "p",
+      "text": "Your DAW is the hub of your studio. Choose one and learn it deeply rather than trying to use several. For beginners, GarageBand (free on Mac) and Audacity (free everywhere) are perfectly capable. Reaper ($60) offers professional features at a fraction of the cost of Logic or Ableton. Pro Tools is the industry standard for professional studios but is overkill for home recording."
+    },
+    {
+      "type": "p",
+      "text": "Organize your projects from the start. Create a consistent folder structure: one folder per project, with subfolders for raw recordings, edited files, mixes, and exports. Name your files clearly with dates and version numbers. This seems tedious now, but future you will be grateful when you're searching for a recording from six months ago."
+    },
+    {
+      "type": "h2",
+      "text": "Building Your Studio Over Time"
+    },
+    {
+      "type": "p",
+      "text": "You don't need to buy everything at once. Here's a suggested upgrade path that builds on each step: Start with a USB microphone and free software. Add a pair of closed-back headphones. Upgrade to an audio interface and XLR microphone. Add acoustic treatment to your room. Invest in a quality microphone stand and pop filter. Consider studio monitors (speakers) for mixing when your budget allows. Each step meaningfully improves your recording quality without breaking the bank."
+    },
+    {
+      "type": "p",
+      "text": "The most important thing is to start recording now with whatever you have. Skills matter more than gear, and you develop skills by doing. Set up what you can, start capturing audio, and upgrade strategically as you learn what your workflow actually needs."
+    }
+  ]
+}

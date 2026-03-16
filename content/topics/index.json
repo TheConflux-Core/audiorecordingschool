@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "recording-fundamentals",
+    "title": "Recording Fundamentals",
+    "description": "Learn the core concepts of audio recording — from signal flow to gain staging — so you can capture clean audio every time."
+  },
+  {
+    "slug": "home-studio-setup",
+    "title": "Home Studio Setup",
+    "description": "Everything you need to know about setting up a home recording space, from choosing a room to treating it on a budget."
+  },
+  {
+    "slug": "gear-and-equipment",
+    "title": "Gear & Equipment",
+    "description": "Honest, beginner-friendly guides to microphones, audio interfaces, headphones, and other essential recording gear."
+  },
+  {
+    "slug": "podcast-and-voice-recording",
+    "title": "Podcast & Voice Recording",
+    "description": "Techniques and setup guides specifically for podcasters, voiceover artists, and spoken-word creators."
+  },
+  {
+    "slug": "troubleshooting",
+    "title": "Troubleshooting",
+    "description": "Diagnose and fix common recording problems — noise, distortion, latency, and more."
+  }
+]

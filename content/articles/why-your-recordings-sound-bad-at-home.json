@@ -1,0 +1,196 @@
+{
+  "slug": "why-your-recordings-sound-bad-at-home",
+  "title": "Why Your Recordings Sound Bad at Home — and How to Fix It",
+  "excerpt": "Muddy vocals, background noise, hollow reverb — home recording problems have specific causes and real solutions. Here's how to diagnose and fix what's wrong.",
+  "date": "2026-03-02",
+  "readTime": "13 min read",
+  "topics": ["troubleshooting", "home-studio-setup"],
+  "relatedArticles": ["how-to-start-recording-audio-at-home", "how-to-record-clear-vocals-at-home"],
+  "content": [
+    {
+      "type": "intro",
+      "text": "You've set up your microphone, hit record, and played it back — and it sounds nothing like what you expected. Maybe it's muddy, or there's a weird echo, or there's a constant hum underneath everything. Don't worry. These problems are extremely common in home recording, and every single one has a solution. This guide walks through the most frequent issues and exactly how to fix them."
+    },
+    {
+      "type": "h2",
+      "text": "Problem: Your Recording Sounds Echoey or Reverberant"
+    },
+    {
+      "type": "h3",
+      "text": "What's happening"
+    },
+    {
+      "type": "p",
+      "text": "Sound bounces off hard surfaces — walls, floors, ceilings, desks — before reaching your microphone. Your microphone captures both the direct sound and all those reflections, creating a hollow, room-like quality. This is called room reverb, and untreated rooms have a lot of it."
+    },
+    {
+      "type": "h3",
+      "text": "How to fix it"
+    },
+    {
+      "type": "p",
+      "text": "The cheapest and most effective solution is to move closer to the microphone. When you're close to the mic, the direct sound is much louder than the reflections, so the room effect becomes less noticeable. Stay about 6 to 8 inches from the mic for spoken word."
+    },
+    {
+      "type": "p",
+      "text": "Beyond mic placement, add soft materials to your recording space. Hang thick blankets or duvets on the walls, especially the wall behind you (the reflection that reaches the mic most strongly). A rug on a hard floor makes a big difference. Bookshelves full of books break up sound waves and diffuse reflections."
+    },
+    {
+      "type": "p",
+      "text": "For the most dramatic improvement on a budget, record in a closet full of clothes. The hanging fabric absorbs nearly all reflections, giving you an extremely dry, focused sound. This is why many voiceover artists and podcasters record in closets or purpose-built vocal booths."
+    },
+    {
+      "type": "h2",
+      "text": "Problem: There's a Constant Hum or Buzz"
+    },
+    {
+      "type": "h3",
+      "text": "What's happening"
+    },
+    {
+      "type": "p",
+      "text": "A low hum (usually at 60 Hz in North America, 50 Hz in Europe) is caused by ground loops or electromagnetic interference from electrical wiring, lights, or appliances. A higher-pitched buzz can come from dimmer switches, LED drivers, or computer monitors."
+    },
+    {
+      "type": "h3",
+      "text": "How to fix it"
+    },
+    {
+      "type": "p",
+      "text": "Start by identifying the source. Turn off all electrical devices in the room except your recording setup. If the hum disappears, turn things back on one at a time until it returns. Common culprits include fluorescent lights, dimmer switches, laptop chargers, and phone chargers."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Use balanced XLR cables — they reject electromagnetic interference much better than unbalanced cables.",
+        "Plug all your recording equipment into the same power outlet or power strip to avoid ground loops.",
+        "Move your microphone away from computer monitors and power supplies — electromagnetic interference drops off quickly with distance.",
+        "Turn off HVAC systems while recording — furnaces and air conditioners produce low-frequency hum and rumble.",
+        "Use a ground lift adapter or audio isolation transformer if you're dealing with persistent ground loop hum."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Problem: Your Recording Sounds Thin and Weak"
+    },
+    {
+      "type": "h3",
+      "text": "What's happening"
+    },
+    {
+      "type": "p",
+      "text": "Thin, weak-sounding recordings usually come from one of three causes: recording too far from the microphone, using the wrong polar pattern, or recording in an overly dead room that strips away all natural warmth."
+    },
+    {
+      "type": "h3",
+      "text": "How to fix it"
+    },
+    {
+      "type": "p",
+      "text": "First, move closer to the microphone. Most microphones have a proximity effect — they produce warmer, bassier sounds the closer you are. Moving from 18 inches to 6 inches can dramatically change the tone of your recording, adding body and fullness."
+    },
+    {
+      "type": "p",
+      "text": "Second, check your microphone's polar pattern. Most condenser microphones have a cardioid pattern (heart-shaped pickup area) that's most sensitive directly in front and rejects sound from the sides and rear. Make sure you're speaking into the front of the mic, not the side or back. On some microphones, the front is marked with a logo or dot."
+    },
+    {
+      "type": "p",
+      "text": "Third, check your gain levels. If your input gain is too low, your signal is barely above the noise floor, resulting in a weak, hissy recording. Aim for peaks around -12 dB to -6 dB, which gives you a healthy signal level without risking clipping."
+    },
+    {
+      "type": "h2",
+      "text": "Problem: Background Noise Is Ruining Everything"
+    },
+    {
+      "type": "h3",
+      "text": "What's happening"
+    },
+    {
+      "type": "p",
+      "text": "Your microphone is picking up sounds you don't notice in the room because your brain filters them out — but a microphone doesn't. Computer fans, air conditioning, traffic outside, refrigerator hum, dogs barking — all of it gets recorded."
+    },
+    {
+      "type": "h3",
+      "text": "How to fix it"
+    },
+    {
+      "type": "p",
+      "text": "The best fix is prevention. Before recording, do a 30-second silence test. Record nothing and listen back on headphones. What do you hear? Those are your noise sources. Eliminate as many as you can:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Turn off fans, air conditioners, and heaters while recording.",
+        "Close windows to block traffic and neighborhood noise.",
+        "Move your computer as far from the microphone as your cable allows, or use a laptop that's quieter.",
+        "Record during quiet hours — early morning or late evening often has less ambient noise.",
+        "Use a cardioid or hypercardioid microphone to reject sound from the sides and rear."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For noise you can't eliminate, a noise gate plugin can help. A noise gate closes the audio channel when the signal drops below a threshold (like when you're not speaking), eliminating background noise between words. Most DAWs include a noise gate, and free plugins like ReaGate in Reaper work well."
+    },
+    {
+      "type": "h2",
+      "text": "Problem: Your Recording Sounds Distorted or Clipped"
+    },
+    {
+      "type": "h3",
+      "text": "What's happening"
+    },
+    {
+      "type": "p",
+      "text": "Digital clipping happens when the input signal is too loud for the digital system to handle. The waveform gets chopped off at the maximum level, producing a harsh, crunchy distortion. Unlike analog distortion (which can sometimes sound pleasant), digital clipping almost always sounds bad and is extremely difficult to fix after recording."
+    },
+    {
+      "type": "h3",
+      "text": "How to fix it"
+    },
+    {
+      "type": "p",
+      "text": "Lower your input gain. This is the most important rule in recording: never let your levels clip. Set your gain so your peaks hit -12 dB to -6 dB. If you're recording something dynamic — like singing or acoustic guitar — keep even more headroom, since louder passages will push the levels higher."
+    },
+    {
+      "type": "p",
+      "text": "Enable input monitoring in your DAW so you can see the levels in real-time while recording. If you see the meter going into the red, stop and lower the gain before continuing. Digital headroom is cheap — use it."
+    },
+    {
+      "type": "h2",
+      "text": "Problem: Latency Is Driving You Crazy"
+    },
+    {
+      "type": "h3",
+      "text": "What's happening"
+    },
+    {
+      "type": "p",
+      "text": "Latency is the delay between when you make a sound and when you hear it through your headphones. A small amount of latency is unavoidable — audio takes time to travel through cables, get converted from analog to digital, pass through your computer, and come back out. But when latency is noticeable, it makes it impossible to perform naturally."
+    },
+    {
+      "type": "h3",
+      "text": "How to fix it"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Use your audio interface's direct monitoring feature — this sends the microphone signal directly to your headphones before it goes through the computer, eliminating software latency entirely.",
+        "Lower your buffer size in your DAW's audio settings. A buffer of 64 or 128 samples gives low latency but uses more CPU. Start at 128 and adjust.",
+        "If you're on Windows, use ASIO drivers instead of the default Windows audio drivers — ASIO is designed for low-latency audio.",
+        "Close unnecessary applications while recording to free up CPU resources."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The Diagnostic Mindset"
+    },
+    {
+      "type": "p",
+      "text": "The most useful skill in home recording isn't knowing every fix — it's learning to diagnose problems systematically. When something sounds wrong, isolate the variable. Record in a different room. Try a different microphone. Use a different cable. Listen on different headphones. Change one thing at a time and listen for the difference. That process of elimination will teach you more about recording than any guide, and it's how every experienced engineer troubleshoots their setup."
+    },
+    {
+      "type": "p",
+      "text": "Every recording problem has a cause, and every cause has a solution. Start with the basics — room, gain, mic placement — and work your way through systematically. You'll be amazed at how much better your recordings sound once you start paying attention to these fundamentals."
+    }
+  ]
+}
