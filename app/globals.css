@@ -1,3 +1,137 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Smooth scroll behavior */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom selection color */
+  ::selection {
+    background-color: rgba(34, 211, 238, 0.3);
+    color: white;
+  }
+
+  /* Dark scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #020617;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+  }
+}
+
+/* Reading progress bar */
+@layer components {
+  .reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #22d3ee 0%, #8b5cf6 100%);
+    z-index: 100;
+    transition: width 0.1s ease-out;
+  }
+
+  /* Gradient text utility */
+  .gradient-text {
+    background: linear-gradient(to right, #22d3ee, #8b5cf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Glass card utility */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+  }
+
+  /* Glow hover utility */
+  .glow-hover {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  .glow-hover:hover {
+    box-shadow: 0 0 30px rgba(34, 211, 238, 0.15);
+    transform: scale(1.02);
+  }
+}
+
+/* Gradient mesh background animation */
+@keyframes gradient-shift {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+}
+
+/* Gradient mesh background elements */
+.gradient-mesh {
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-mesh::before,
+.gradient-mesh::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+  animation: gradient-shift 20s ease-in-out infinite;
+}
+
+.gradient-mesh::before {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(135deg, #22d3ee 0%, #8b5cf6 100%);
+  top: -250px;
+  left: -100px;
+  animation-delay: 0s;
+}
+
+.gradient-mesh::after {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(225deg, #8b5cf6 0%, #22d3ee 100%);
+  bottom: -200px;
+  right: -100px;
+  animation-delay: -10s;
+}
+
+/* Additional gradient blob for more depth */
+.gradient-mesh-extra {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, rgba(34, 211, 238, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%);
+  filter: blur(100px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: gradient-shift 25s ease-in-out infinite;
+  animation-delay: -5s;
+  pointer-events: none;
+}
