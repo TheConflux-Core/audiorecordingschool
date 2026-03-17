@@ -47,7 +47,12 @@
     },
     {
       "type": "p",
-      "text": "Good USB microphones sound genuinely good. The Audio-Technica AT2020USB+ ($130), Rode NT-USB Mini ($100), and Blue Yeti ($130) all produce professional-quality audio for spoken word, podcasts, and basic music recording. Many popular podcasts and YouTube channels use USB microphones successfully."
+      "text": "Good USB microphones sound genuinely good. The Audio-Technica AT2020USB+ ($130), Rode NT-USB Mini ($100), and Blue Yeti ($130) all produce professional-quality audio for spoken word, podcasts, and basic music recording. Many popular podcasts and YouTube channels use USB microphones successfully.",
+      "links": [
+        { "text": "Audio-Technica AT2020USB+", "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020USB%2B&tag=donziglioni-20" },
+        { "text": "Rode NT-USB Mini", "url": "https://www.amazon.com/s?k=Rode+NT-USB+Mini&tag=donziglioni-20" },
+        { "text": "Blue Yeti", "url": "https://www.amazon.com/s?k=Blue+Yeti+microphone&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "p",
@@ -73,11 +78,18 @@
     },
     {
       "type": "p",
-      "text": "The XLR ecosystem is vast. Virtually every professional microphone in the world uses an XLR connection. From the legendary Shure SM7B ($400) to the industry-standard Neumann U87 ($3,200) to budget gems like the Audio-Technica AT2020 ($100), the XLR format gives you access to the best microphones ever made."
+      "text": "The XLR ecosystem is vast. Virtually every professional microphone in the world uses an XLR connection. From the legendary Shure SM7B ($400) to the industry-standard Neumann U87 ($3,200) to budget gems like the Audio-Technica AT2020 ($100), the XLR format gives you access to the best microphones ever made.",
+      "links": [
+        { "text": "Shure SM7B", "url": "https://www.amazon.com/s?k=Shure+SM7B&tag=donziglioni-20" },
+        { "text": "Audio-Technica AT2020", "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "p",
-      "text": "With an XLR setup, your microphone and interface are separate. This means you can upgrade one without replacing the other. Start with a Focusrite Scarlett Solo and an AT2020, then later swap the microphone for something better while keeping the same interface — or vice versa. That modularity saves money over time."
+      "text": "With an XLR setup, your microphone and interface are separate. This means you can upgrade one without replacing the other. Start with a Focusrite Scarlett Solo and an AT2020, then later swap the microphone for something better while keeping the same interface — or vice versa. That modularity saves money over time.",
+      "links": [
+        { "text": "Focusrite Scarlett Solo", "url": "https://www.amazon.com/s?k=Focusrite+Scarlett+Solo&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "h2",
@@ -139,15 +151,57 @@
     },
     {
       "type": "p",
-      "text": "Here's my honest take: if you're just starting out and want to begin recording today, buy a USB microphone. Get something decent like the Rode NT-USB Mini or Audio-Technica AT2020USB+. Start making recordings. Learn technique, practice gain staging, and get comfortable with your recording software."
+      "text": "Here's my honest take: if you're just starting out and want to begin recording today, buy a USB microphone. Get something decent like the Rode NT-USB Mini or Audio-Technica AT2020USB+. Start making recordings. Learn technique, practice gain staging, and get comfortable with your recording software.",
+      "links": [
+        { "text": "Rode NT-USB Mini", "url": "https://www.amazon.com/s?k=Rode+NT-USB+Mini&tag=donziglioni-20" },
+        { "text": "Audio-Technica AT2020USB+", "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020USB%2B&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "p",
-      "text": "If you know you're going to take this seriously, or if you already have some recording experience and want the best quality within your budget, go XLR from the start. A Focusrite Scarlett Solo ($120) plus an Audio-Technica AT2020 ($100) gives you a professional-quality setup for around $220 that you won't outgrow for years."
+      "text": "If you know you're going to take this seriously, or if you already have some recording experience and want the best quality within your budget, go XLR from the start. A Focusrite Scarlett Solo ($120) plus an Audio-Technica AT2020 ($100) gives you a professional-quality setup for around $220 that you won't outgrow for years.",
+      "links": [
+        { "text": "Focusrite Scarlett Solo", "url": "https://www.amazon.com/s?k=Focusrite+Scarlett+Solo&tag=donziglioni-20" },
+        { "text": "Audio-Technica AT2020", "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "p",
       "text": "Either way, don't stress about it. The best microphone is the one you'll actually use. Pick the setup that fits your budget and workflow, and start recording. You can always upgrade later — and you'll make a much better upgrade decision after you've logged some hours behind the mic."
+    },
+    {
+      "type": "gear",
+      "title": "Microphones Mentioned in This Article",
+      "products": [
+        {
+          "name": "Audio-Technica AT2020USB+",
+          "description": "Excellent USB condenser mic. Plug-and-play, great for podcasts and voiceovers.",
+          "price": "$130",
+          "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020USB%2B&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Rode NT-USB Mini",
+          "description": "Compact USB mic with built-in pop filter. Clean, focused sound.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Rode+NT-USB+Mini&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Audio-Technica AT2020 (XLR)",
+          "description": "Budget-friendly XLR condenser. Industry standard for home studios.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Focusrite Scarlett Solo",
+          "description": "Most popular entry-level audio interface. Clean preamps, reliable drivers.",
+          "price": "$120",
+          "url": "https://www.amazon.com/s?k=Focusrite+Scarlett+Solo&tag=donziglioni-20",
+          "retailer": "Amazon"
+        }
+      ]
     }
   ]
 }

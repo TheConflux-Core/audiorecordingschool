@@ -12,10 +12,28 @@ export interface Article {
   content: ArticleBlock[];
 }
 
+export interface InlineLink {
+  text: string;
+  url: string;
+}
+
+export interface AffiliateProduct {
+  name: string;
+  description: string;
+  price?: string;
+  url: string;
+  retailer: string;
+}
+
 export interface ArticleBlock {
-  type: 'intro' | 'h2' | 'h3' | 'p' | 'ul' | 'ol';
+  type: 'intro' | 'h2' | 'h3' | 'p' | 'ul' | 'ol' | 'gear' | 'ad';
   text?: string;
   items?: string[];
+  links?: InlineLink[];
+  title?: string;
+  products?: AffiliateProduct[];
+  slot?: string;
+  format?: string;
 }
 
 export interface Topic {

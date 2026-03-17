@@ -1,7 +1,10 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import React from 'react';
 import Link from 'next/link';
 import Prose from '@/components/Prose';
+import AdBanner from '@/components/AdBanner';
+import RecommendedGear from '@/components/RecommendedGear';
 import { getArticleBySlug, getAllArticleSlugs, getArticleBySlug as getArticle } from '@/lib/content';
 import { formatDate } from '@/lib/utils';
 
@@ -32,17 +35,55 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+function renderInlineLinks(text: string, links?: { text: string; url: string }[]) {
+  if (!links || links.length === 0) return text;
+
+  const parts: (string | React.ReactElement)[] = [];
+  let remaining = text;
+  let keyIndex = 0;
+
+  for (const link of links) {
+    const idx = remaining.indexOf(link.text);
+    if (idx === -1) continue;
+
+    if (idx > 0) {
+      parts.push(remaining.slice(0, idx));
+    }
+    parts.push(
+      <a
+        key={keyIndex++}
+        href={link.url}
+        target="_blank"
+        rel="noopener noreferrer sponsored"
+        className="text-cyan-400 hover:text-cyan-300 underline underline-offset-2 transition-colors"
+      >
+        {link.text}
+      </a>
+    );
+    remaining = remaining.slice(idx + link.text.length);
+  }
+
+  if (remaining) parts.push(remaining);
+  return parts.length > 0 ? <>{parts}</> : text;
+}
+
 function renderContent(content: Article['content']) {
   return content.map((block, i) => {
     switch (block.type) {
       case 'intro':
-        return <p key={i} className="text-xl text-gray-600 leading-relaxed">{block.text}</p>;
+        return (
+          <p key={i} className="text-xl text-gray-600 leading-relaxed">
+            {renderInlineLinks(block.text || '', block.links)}
+          </p>
+        );
       case 'h2':
         return <h2 key={i}>{block.text}</h2>;
       case 'h3':
         return <h3 key={i}>{block.text}</h3>;
       case 'p':
-        return <p key={i}>{block.text}</p>;
+        return (
+          <p key={i}>{renderInlineLinks(block.text || '', block.links)}</p>
+        );
       case 'ul':
         return (
           <ul key={i}>
@@ -55,6 +96,10 @@ function renderContent(content: Article['content']) {
             {block.items?.map((item, j) => <li key={j}>{item}</li>)}
           </ol>
         );
+      case 'gear':
+        return <RecommendedGear key={i} title={block.title} products={block.products || []} />;
+      case 'ad':
+        return <AdBanner key={i} slot={block.slot || ''} format={block.format as 'auto' | 'fluid' | 'rectangle' | undefined} />;
       default:
         return null;
     }

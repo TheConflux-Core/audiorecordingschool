@@ -52,7 +52,11 @@
     },
     {
       "type": "p",
-      "text": "With a USB microphone, steps 2 and 3 are combined — the microphone itself has a built-in audio interface. That's why USB mics are the easiest starting point for beginners. When you're ready to upgrade to an XLR microphone, you'll need a separate audio interface like the Focusrite Scarlett Solo or the Universal Audio Volt 1."
+      "text": "With a USB microphone, steps 2 and 3 are combined — the microphone itself has a built-in audio interface. That's why USB mics are the easiest starting point for beginners. When you're ready to upgrade to an XLR microphone, you'll need a separate audio interface like the Focusrite Scarlett Solo or the Universal Audio Volt 1.",
+      "links": [
+        { "text": "Focusrite Scarlett Solo", "url": "https://www.amazon.com/s?k=Focusrite+Scarlett+Solo&tag=donziglioni-20" },
+        { "text": "Universal Audio Volt 1", "url": "https://www.amazon.com/s?k=Universal+Audio+Volt+1&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "h2",
@@ -156,6 +160,40 @@
     {
       "type": "p",
       "text": "Recording audio at home is a skill, and like any skill, it improves with practice. Start simple, record often, and focus on capturing clean, clear audio. The rest — the plugins, the fancy gear, the treated rooms — those come later. What matters now is that you start."
+    },
+    {
+      "type": "gear",
+      "title": "Starter Gear to Get You Recording Today",
+      "products": [
+        {
+          "name": "Rode NT-USB Mini",
+          "description": "Perfect beginner USB microphone. Compact, clean sound, built-in pop filter.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Rode+NT-USB+Mini&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Audio-Technica AT2020USB+",
+          "description": "Versatile USB condenser mic. Great for vocals, podcasts, and home recording.",
+          "price": "$130",
+          "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020USB%2B&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Audio-Technica ATH-M50x",
+          "description": "Studio-quality closed-back headphones. Essential for monitoring while recording.",
+          "price": "$150",
+          "url": "https://www.amazon.com/s?k=Audio-Technica+ATH-M50x&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Sony MDR-7506",
+          "description": "Affordable, reliable studio headphones trusted by professionals for decades.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Sony+MDR-7506&tag=donziglioni-20",
+          "retailer": "Amazon"
+        }
+      ]
     }
   ]
 }

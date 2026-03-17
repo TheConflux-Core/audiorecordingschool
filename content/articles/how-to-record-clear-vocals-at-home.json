@@ -162,6 +162,13 @@
     },
     {
       "type": "p",
+      "text": "For high-quality vocal plugins — compressors, de-essers, and EQs — Plugin Boutique has a huge selection at every price point, including many free options.",
+      "links": [
+        { "text": "Plugin Boutique", "url": "https://www.pluginboutique.com/?a_aid=61ecdbcd0bb85" }
+      ]
+    },
+    {
+      "type": "p",
       "text": "Keep editing subtle. The goal is to enhance what's already there, not to completely transform the recording. If you need heavy processing to make a vocal recording sound good, the issue is likely in the recording itself — room acoustics, mic placement, or performance."
     },
     {
@@ -175,6 +182,52 @@
     {
       "type": "p",
       "text": "Start with what you have. Record something today, listen back critically, identify the biggest problem, and fix it. Then record again. That iterative process — record, listen, improve, repeat — is how you develop the skill of recording great vocals. No tutorial replaces the experience of actually doing it."
+    },
+    {
+      "type": "gear",
+      "title": "Best Microphones for Vocal Recording",
+      "products": [
+        {
+          "name": "Audio-Technica AT2020",
+          "description": "Excellent budget condenser for treated rooms. Detailed, clear vocal capture.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Shure SM58",
+          "description": "The legendary dynamic vocal mic. Rejects room noise, handles plosives well, nearly indestructible.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Shure+SM58&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Rode PodMic",
+          "description": "Purpose-built for voice and podcast work. Broadcast quality, internal pop filter.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Rode+PodMic&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Rode NT-USB Mini",
+          "description": "Clean USB option for beginners. No interface needed, great for voiceover.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Rode+NT-USB+Mini&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Plugin Boutique",
+          "description": "Huge selection of vocal plugins — compressors, de-essers, EQs, and more. Many free options.",
+          "url": "https://www.pluginboutique.com/?a_aid=61ecdbcd0bb85",
+          "retailer": "Plugin Boutique"
+        },
+        {
+          "name": "Loopmasters",
+          "description": "Royalty-free vocal samples, loops, and production packs for music producers.",
+          "url": "https://www.loopmasters.com/?a_aid=61ecdbcd0bb85",
+          "retailer": "Loopmasters"
+        }
+      ]
     }
   ]
 }

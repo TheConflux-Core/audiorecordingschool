@@ -66,7 +66,11 @@
     },
     {
       "type": "p",
-      "text": "If you started with a USB microphone, upgrading to an audio interface and XLR microphone is the single biggest quality jump you can make. An interface converts your microphone's analog signal to digital and gives you proper preamps, gain controls, and monitoring capabilities. The Focusrite Scarlett Solo ($120) is the most popular entry-level option. The Universal Audio Volt 1 ($140) offers vintage-style preamp coloring. Both include headphone outputs and work reliably with every major DAW."
+      "text": "If you started with a USB microphone, upgrading to an audio interface and XLR microphone is the single biggest quality jump you can make. An interface converts your microphone's analog signal to digital and gives you proper preamps, gain controls, and monitoring capabilities. The Focusrite Scarlett Solo ($120) is the most popular entry-level option. The Universal Audio Volt 1 ($140) offers vintage-style preamp coloring. Both include headphone outputs and work reliably with every major DAW.",
+      "links": [
+        { "text": "Focusrite Scarlett Solo", "url": "https://www.amazon.com/s?k=Focusrite+Scarlett+Solo&tag=donziglioni-20" },
+        { "text": "Universal Audio Volt 1", "url": "https://www.amazon.com/s?k=Universal+Audio+Volt+1&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "h3",
@@ -74,7 +78,13 @@
     },
     {
       "type": "p",
-      "text": "For most home studio work, a large-diaphragm condenser microphone is the most versatile choice. The Audio-Technica AT2020 ($100) is an excellent budget option. The Rode NT1 ($270) is a step up with extremely low self-noise. For dynamic microphone options that reject more room noise, the Shure SM58 ($100) and the Rode PodMic ($100) are both excellent, especially for untreated rooms."
+      "text": "For most home studio work, a large-diaphragm condenser microphone is the most versatile choice. The Audio-Technica AT2020 ($100) is an excellent budget option. The Rode NT1 ($270) is a step up with extremely low self-noise. For dynamic microphone options that reject more room noise, the Shure SM58 ($100) and the Rode PodMic ($100) are both excellent, especially for untreated rooms.",
+      "links": [
+        { "text": "Audio-Technica AT2020", "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020&tag=donziglioni-20" },
+        { "text": "Rode NT1", "url": "https://www.amazon.com/s?k=Rode+NT1&tag=donziglioni-20" },
+        { "text": "Shure SM58", "url": "https://www.amazon.com/s?k=Shure+SM58&tag=donziglioni-20" },
+        { "text": "Rode PodMic", "url": "https://www.amazon.com/s?k=Rode+PodMic&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "h3",
@@ -82,7 +92,12 @@
     },
     {
       "type": "p",
-      "text": "Closed-back headphones are essential for tracking (recording) because they prevent sound from leaking into your microphone. The Audio-Technica ATH-M50x ($150) is an industry standard. The Sony MDR-7506 ($100) has been a studio workhorse for decades. For mixing, open-back headphones like the Beyerdynamic DT 900 Pro X ($300) give you a more natural, spacious sound."
+      "text": "Closed-back headphones are essential for tracking (recording) because they prevent sound from leaking into your microphone. The Audio-Technica ATH-M50x ($150) is an industry standard. The Sony MDR-7506 ($100) has been a studio workhorse for decades. For mixing, open-back headphones like the Beyerdynamic DT 900 Pro X ($300) give you a more natural, spacious sound.",
+      "links": [
+        { "text": "Audio-Technica ATH-M50x", "url": "https://www.amazon.com/s?k=Audio-Technica+ATH-M50x&tag=donziglioni-20" },
+        { "text": "Sony MDR-7506", "url": "https://www.amazon.com/s?k=Sony+MDR-7506&tag=donziglioni-20" },
+        { "text": "Beyerdynamic DT 900 Pro X", "url": "https://www.amazon.com/s?k=Beyerdynamic+DT+900+Pro+X&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "h3",
@@ -90,7 +105,11 @@
     },
     {
       "type": "p",
-      "text": "Don't overlook the small stuff. A sturdy microphone stand (desk stand or boom arm) prevents handling noise. A pop filter blocks plosive sounds (the harsh P and B sounds that cause distortion). An XLR cable (get a reliable one like Mogami or Hosa) connects your mic to your interface. Budget $50 to $80 total for these essentials."
+      "text": "Don't overlook the small stuff. A sturdy microphone stand (desk stand or boom arm) prevents handling noise. A pop filter blocks plosive sounds (the harsh P and B sounds that cause distortion). An XLR cable (get a reliable one like Mogami or Hosa) connects your mic to your interface. Budget $50 to $80 total for these essentials.",
+      "links": [
+        { "text": "Mogami", "url": "https://www.amazon.com/s?k=Mogami+XLR+cable&tag=donziglioni-20" },
+        { "text": "Hosa", "url": "https://www.amazon.com/s?k=Hosa+XLR+cable&tag=donziglioni-20" }
+      ]
     },
     {
       "type": "h2",
@@ -114,7 +133,18 @@
     },
     {
       "type": "p",
-      "text": "Your DAW is the hub of your studio. Choose one and learn it deeply rather than trying to use several. For beginners, GarageBand (free on Mac) and Audacity (free everywhere) are perfectly capable. Reaper ($60) offers professional features at a fraction of the cost of Logic or Ableton. Pro Tools is the industry standard for professional studios but is overkill for home recording."
+      "text": "Your DAW is the hub of your studio. Choose one and learn it deeply rather than trying to use several. For beginners, GarageBand (free on Mac) and Audacity (free everywhere) are perfectly capable. Reaper ($60) offers professional features at a fraction of the cost of Logic or Ableton. Pro Tools is the industry standard for professional studios but is overkill for home recording.",
+      "links": [
+        { "text": "Reaper", "url": "https://www.reaper.fm/" }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you're looking for loops, samples, and production tools, check out Loopmasters and LoopCloud — they have massive libraries of royalty-free sounds for any genre.",
+      "links": [
+        { "text": "Loopmasters", "url": "https://www.loopmasters.com/?a_aid=61ecdbcd0bb85" },
+        { "text": "LoopCloud", "url": "https://www.loopcloud.com/?a_aid=61ecdbcd0bb85" }
+      ]
     },
     {
       "type": "p",
@@ -131,6 +161,52 @@
     {
       "type": "p",
       "text": "The most important thing is to start recording now with whatever you have. Skills matter more than gear, and you develop skills by doing. Set up what you can, start capturing audio, and upgrade strategically as you learn what your workflow actually needs."
+    },
+    {
+      "type": "gear",
+      "title": "Home Studio Essentials",
+      "products": [
+        {
+          "name": "Focusrite Scarlett Solo",
+          "description": "Best-selling entry-level audio interface. Clean preamps, USB-C, works with all DAWs.",
+          "price": "$120",
+          "url": "https://www.amazon.com/s?k=Focusrite+Scarlett+Solo&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Audio-Technica AT2020",
+          "description": "Versatile large-diaphragm condenser mic. Great for vocals, instruments, and podcasts.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Audio-Technica+AT2020&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Audio-Technica ATH-M50x",
+          "description": "Industry-standard closed-back studio headphones. Accurate monitoring for tracking and mixing.",
+          "price": "$150",
+          "url": "https://www.amazon.com/s?k=Audio-Technica+ATH-M50x&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Sony MDR-7506",
+          "description": "Studio workhorse headphones. Reliable, comfortable, and affordable.",
+          "price": "$100",
+          "url": "https://www.amazon.com/s?k=Sony+MDR-7506&tag=donziglioni-20",
+          "retailer": "Amazon"
+        },
+        {
+          "name": "Loopmasters",
+          "description": "Massive library of royalty-free samples, loops, and presets for music production.",
+          "url": "https://www.loopmasters.com/?a_aid=61ecdbcd0bb85",
+          "retailer": "Loopmasters"
+        },
+        {
+          "name": "LoopCloud",
+          "description": "Cloud-based sample manager with millions of sounds. Integrates with all DAWs.",
+          "url": "https://www.loopcloud.com/?a_aid=61ecdbcd0bb85",
+          "retailer": "LoopCloud"
+        }
+      ]
     }
   ]
 }
