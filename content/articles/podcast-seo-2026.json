@@ -1,0 +1,143 @@
+{
+  "slug": "podcast-seo-2026",
+  "title": "Podcast SEO 2026: How to Optimize Your Show for Search Engines and Platforms",
+  "excerpt": "Discover the latest podcast SEO strategies for 2026, including website optimization, transcript usage, and platform-specific tactics to increase discoverability.",
+  "date": "2026-03-20",
+  "readTime": "10 min read",
+  "topics": ["podcast-and-voice-recording"],
+  "relatedArticles": [],
+  "content": [
+    {
+      "type": "intro",
+      "text": "Podcast discovery has shifted dramatically in 2026. YouTube now leads podcast discovery in the US, search engines index podcast metadata and episode pages, and platform algorithms rely on titles, descriptions, and engagement signals. This guide covers the latest SEO strategies to make your podcast discoverable across search engines and platforms."
+    },
+    {
+      "type": "h2",
+      "text": "Why Podcast SEO Matters in 2026"
+    },
+    {
+      "type": "p",
+      "text": "The podcast landscape is more competitive than ever. Here's why SEO matters:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "YouTube now leads podcast discovery in the US",
+        "Search engines index podcast metadata and episode pages",
+        "Platform algorithms (Spotify, Apple) rely on titles, descriptions, and engagement signals",
+        "Web browser listening is rising (7.3% of total listens)",
+        "Episode pages with transcripts rank in Google and AI search results"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Foundations of Podcast SEO"
+    },
+    {
+      "type": "p",
+      "text": "Basic principles of optimizing podcast content for search engines:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Your website is where podcast SEO happens (episode pages, transcripts, schema markup)",
+        "Every episode should function like a search landing page",
+        "Transcripts are the biggest SEO multiplier for podcasts",
+        "Topical clusters outperform isolated episode pages",
+        "Podcast SEO should drive business outcomes, not just listens"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step-by-Step Optimization Checklist"
+    },
+    {
+      "type": "p",
+      "text": "Actionable steps for optimizing each episode:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Keyword research: Identify niche-specific keywords using Ahrefs/SEMrush",
+        "Title optimization: Create compelling, keyword-rich episode titles",
+        "Description optimization: Write engaging descriptions with target keywords",
+        "Show notes: Include detailed show notes with timestamps and links",
+        "Transcripts: Provide clean, readable transcripts for each episode",
+        "Schema markup: Implement podcast schema (JSON-LD) for episode pages",
+        "Internal linking: Link related episodes and pillar content",
+        "Platform optimization: Optimize for Spotify, Apple Podcasts, YouTube"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Platform-Specific Optimization Strategies"
+    },
+    {
+      "type": "p",
+      "text": "Detailed optimization tactics for major podcast platforms:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Spotify: Optimize for Spotify's algorithmic playlists and search",
+        "Apple Podcasts: Use categories, keywords, and episode artwork effectively",
+        "YouTube: Create video versions of podcasts with SEO-optimized titles and descriptions",
+        "Google Podcasts: Ensure proper indexing via Google Search Console"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Measuring Podcast SEO Success"
+    },
+    {
+      "type": "p",
+      "text": "Key metrics and tools for tracking podcast SEO performance:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Organic traffic to episode pages",
+        "Keyword rankings for target terms",
+        "Platform-specific metrics (listens, follows, shares)",
+        "Backlinks to episode pages",
+        "Conversion rates (email signups, demo requests)"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common Mistakes to Avoid"
+    },
+    {
+      "type": "p",
+      "text": "Pitfalls that can hinder podcast SEO:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Neglecting website optimization for podcast episodes",
+        "Skipping transcripts or using poor-quality auto-generated ones",
+        "Focusing only on platform algorithms and ignoring website SEO",
+        "Not tracking performance with analytics tools",
+        "Overlooking internal linking opportunities"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Tools and Resources"
+    },
+    {
+      "type": "p",
+      "text": "Recommended tools for podcast SEO:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Keyword research: Ahrefs, SEMrush, Google Keyword Planner",
+        "Transcription services: Rev, Otter.ai, Descript",
+        "SEO analysis: Google Search Console, Google Analytics",
+        "Schema markup generators: Merkle, Schema.org",
+        "Podcast hosting: Buzzsprout, Libsyn, Anchor"
+      ]
+    }
+  ]
+}
