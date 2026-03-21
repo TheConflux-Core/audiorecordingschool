@@ -1,0 +1,18 @@
+{
+  "site": "audiorecordingschool.net",
+  "last_updated": "2026-03-21",
+  "articles": [
+    {
+      "slug": "condenser-vs-dynamic-microphone-comparison",
+      "title": "Condenser vs Dynamic Microphones: The Complete Beginner's Guide to Choosing the Right Mic",
+      "url": "https://audiorecordingschool.net/blog/condenser-vs-dynamic-microphone-comparison",
+      "target_keyword": "condenser vs dynamic microphone comparison",
+      "publish_date": "2026-03-21",
+      "status": "published",
+      "affiliate_links": ["amazon"],
+      "internal_links_in": [],
+      "internal_links_out": ["usb-vs-xlr-microphones-for-beginners", "why-your-recordings-sound-bad-at-home", "home-studio-setup-basics", "how-to-record-clear-vocals-at-home"]
+    }
+  ],
+  "keyword_gaps": []
+}
