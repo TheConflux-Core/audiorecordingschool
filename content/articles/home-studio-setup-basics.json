@@ -45,7 +45,7 @@
         "Moving blankets — thick, heavy blankets hung on walls or placed behind you absorb mid and high frequencies effectively. Professional voice actors use these regularly.",
         "DIY acoustic panels — rigid fiberglass insulation (like Owens Corning 703) wrapped in fabric makes excellent absorption panels. Mount them at the first reflection points on your walls.",
         "Bass traps — foam or fiberglass placed in corners where walls meet helps control low-frequency buildup, which makes recordings sound muddy.",
-        "A reflection filter — curved panels that mount behind your microphone (like the SE Electronics Reflexion Filter) create a small dead zone around the mic."
+        "A reflection filter — curved panels that mount behind your microphone (like the <a href=\"https://www.amazon.com/s?k=SE+Electronics+Reflexion+Filter&tag=donziglioni-20\">SE Electronics Reflexion Filter</a>) create a small dead zone around the mic."
       ]
     },
     {
@@ -133,7 +133,7 @@
     },
     {
       "type": "p",
-      "text": "Your DAW is the hub of your studio. Choose one and learn it deeply rather than trying to use several. For beginners, GarageBand (free on Mac) and Audacity (free everywhere) are perfectly capable. Reaper ($60) offers professional features at a fraction of the cost of Logic or Ableton. Pro Tools is the industry standard for professional studios but is overkill for home recording.",
+      "text": "Your DAW is the hub of your studio. Choose one and learn it deeply rather than trying to use several. For beginners, GarageBand (free on Mac) and Audacity (free everywhere) are perfectly capable. Reaper ($60) offers professional features at a fraction of the cost of <a href=\"https://www.amazon.com/s?k=Logic+Pro&tag=donziglioni-20\">Logic</a> or <a href=\"https://www.amazon.com/s?k=Ableton+Live&tag=donziglioni-20\">Ableton</a>. <a href=\"https://www.amazon.com/s?k=Pro+Tools&tag=donziglioni-20\">Pro Tools</a> is the industry standard for professional studios but is overkill for home recording.",
       "links": [
         { "text": "Reaper", "url": "https://www.reaper.fm/" }
       ]
